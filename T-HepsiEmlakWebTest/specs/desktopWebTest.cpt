@@ -1,0 +1,101 @@
+Created by testinium on 27.07.2021
+
+This is a concept file with following syntax for each concept.
+# HepsiEmlak Ana Sayfasına Gidilir
+* HepsiEmlak Ana Sayfasına Gidilir.
+*"2" saniye bekle
+
+# Satılık İkonuna Basılır
+* "SatilikkButtonBy" elementine tıkla
+*"2" saniye bekle
+
+# Cookie Kapatılır
+* "cookieBy" elementine tıkla
+* "2" saniye bekle
+
+# İl Seçimi İzmir Yapılır
+* "ilSecinizButtonBy" elementine tıkla
+* "1" saniye bekle
+* "izmirSecBy" elementine tıkla
+* "2" saniye bekle
+
+# İlçe Seçimi Bornova Yapılır
+* "ilceSecinizButtonBy" elementine tıkla
+* "1" saniye bekle
+* "BornovaSecBy" elementine scroll ile tıkla
+* "2" saniye bekle
+* "FiyatBy" elementine tıkla
+* "1" saniye bekle
+
+# Kategori Seçimi İşyeri Yapılır
+* "isyeriButtonBy" elementine tıkla
+* "2" saniye bekle
+
+# Minimum - Maximum Fiyat Değerleri Girilir (100.000 - 2.000.000)
+* "minFiyatBy" elementine scrolla
+* "minFiyatBy" 'ine "100000" degerini yolla
+* "2" saniye bekle
+*"maxFiyatBy" elementine scrolla
+*"maxFiyatBy" 'ine "2000000" degerini yolla
+* "2" saniye bekle
+
+# Bina Yaşı Seçilir (Sıfır Bina, 1-5, 6-10)
+* "binaYasıButtonBy" elementine scroll ile tıkla
+* "sıfırbinaBy" elementine scroll ile tıkla
+* "birbesbinaBy" elementine scroll ile tıkla
+* "altıonbinaBy" elementine scroll ile tıkla
+* "2" saniye bekle
+
+# Ara butonuna basılır
+* "searchButtonBy" elementine tıkla
+* "2" saniye bekle
+
+# Tagler Kontrol Edilir
+* "ilBy" elementi "İzmir" mi?
+* "ilceBy" elementi "Bornova" mi?
+* "isyeriBy" elementi "İşyeri" mi?
+* "fiyatBy" elementi "100.000 TL - 2.000.000 TL" mi?
+* "sifirbinaCBy" elementi "Sıfır Bina" mi?
+* "birbesbinaCBy" elementi "1-5" mi?
+* "altionbibaCBy" elementi "6-10" mi?
+
+
+
+# Kiralık İkonuna Tıklanır
+* "KiralikButtonBy" elementine tıkla
+* "2" saniye bekle
+
+# İl Seçimi Ankara Yapılır
+* "ilSecinizButtonBy" elementine tıkla
+* "1" saniye bekle
+* "AnkaraSecBy" elementine tıkla
+* "2" saniye bekle
+
+# İlçe Seçimi Çankaya Yapılır
+* "ilceSecinizButtonBy" elementine tıkla
+* "1" saniye bekle
+* "CankayaSecBy" elementine scroll ile tıkla
+* "2" saniye bekle
+* "FiyatBy" elementine tıkla
+* "1" saniye bekle
+
+# Oda Sayısı Seçimi 2+1 Yapılır
+* "OdaSayisiBy" elementine tıkla
+* "1" saniye bekle
+* "ikiartibiriSecBy" elementine scroll ile tıkla
+* "1" saniye bekle
+
+# Site İçerisinde Seçeneği Evet Olarak İşaretlenir
+* "siteicindeyiSecBy" elementine scroll ile tıkla
+* "1" saniye bekle
+
+# Listelemede 3. İlana Tıklanır
+* "ucuncuilanBy" elementine tıkla
+* "1" saniye bekle
+
+# Telefon Numarasını Sorgulanır
+* "telefonNumarasınıGosterBy" elementine tıkla
+* "telBy" telefon "tel:+90[3122231099]" mi?
+
+
+

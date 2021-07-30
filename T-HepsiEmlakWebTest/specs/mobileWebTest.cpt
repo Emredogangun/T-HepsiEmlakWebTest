@@ -1,0 +1,109 @@
+Created by testinium on 29.07.2021
+
+This is a concept file with following syntax for each concept.
+
+
+# Satılık İkonuna Basılır.
+* "cookieByM" elementine tıkla
+* "SatilikkButtonByM" elementine tıkla
+*"2" saniye bekle
+
+# Filtrele Butonuna Tıklanır.
+* "filtreleButtonByM" elementine tıkla
+
+# İl Seçimi İzmir Yapılır.
+* "ilSecinizButtonByM" elementine tıkla
+* "1" saniye bekle
+* "izmirSecByM" elementine tıkla
+* "2" saniye bekle
+
+# İlçe Seçimi Bornova Yapılır.
+* "ilceSecinizButtonByM" elementine tıkla
+* "1" saniye bekle
+* "BornovaSecByM" elementine scroll ile tıkla
+* "2" saniye bekle
+* "UygulaByM" elementine tıkla
+* "1" saniye bekle
+
+# Kategori Olarak İşyeri Seçilir.
+* "isyerisecByM" elementine tıkla
+
+# Fiyat Olarak Min(100.000) Max(2.000.000) Girilir.
+* "minfiyatByM" elementine scrolla
+* "minfiyatByM" 'ine "100000" degerini yolla
+* "2" saniye bekle
+*"maxfiyatByM" elementine scrolla
+*"maxfiyatByM" 'ine "2000000" degerini yolla
+* "2" saniye bekle
+
+# Bina Yaşı Seçilir (Sıfır Bina, 1-5, 6-10).
+* "binayasisecByM" elementine scroll ile tıkla
+* "1" saniye bekle
+* "sifirbinaByM" elementine scroll ile tıkla
+* "1" saniye bekle
+* "birbesbinaByM" elementine scroll ile tıkla
+* "1" saniye bekle
+* "altionByM" elementine scroll ile tıkla
+* "1" saniye bekle
+* "uygulabinaButtonByM" elementine tıkla
+* "1" saniye bekle
+
+
+# Sonuçları Göster Butonuna Tıklanır.
+* "sonuclarigosterByM" elementine tıkla
+* "2" saniye bekle
+
+# Tagler Kontrol Edilir.
+* "ilKontrolByM" elementi "İzmir Satılık İşyeri" mi?
+* "ilceKontrolByM" elementi "Bornova Satılık İşyeri" mi?
+* "2" saniye bekle
+* "filtreleByM" elementine tıkla
+* "2" saniye bekle
+* "sifirbinaCByM" elementi "Sıfır Bina" mi?
+* "birbesbinaCByM" elementi "1-5" mi?
+* "altionbibaCByM" elementi "6-10" mi?
+* "maxfiyatKontrolByM" elementi "2.000.000 TL" mi??
+* "minfiyatKontrolByM" elementi "100.000 TL" mi??
+* "isyeriByM" elementi "İşyeri" mi??
+* "isyeridurumByM" elementi "Satılık" mi??
+
+
+# Kiralık İkonuna Tıklanır.
+* "cookieByM" elementine tıkla
+* "KiralikButtonByM" elementine tıkla
+*"2" saniye bekle
+
+# İl Seçimi Ankara Yapılır.
+* "ilSecinizButtonByM" elementine tıkla
+* "1" saniye bekle
+* "ankarasecByM" elementine tıkla
+* "2" saniye bekle
+
+# İlçe Seçimi Çankaya Yapılır.
+* "ilceSecinizButtonByM" elementine tıkla
+* "1" saniye bekle
+* "cankayasecByM" elementine scroll ile tıkla
+* "2" saniye bekle
+* "UygulaByM" elementine tıkla
+* "1" saniye bekle
+
+# Oda Sayısı Seçimi 2+1 Yapılır.
+* "odasecbuttonByM" elementine scroll ile tıkla
+* "1" saniye bekle
+* "ikiartibirsecByM" elementine tıkla
+* "1" saniye bekle
+* "uygulabinaButtonByM" elementine tıkla
+* "1" saniye bekle
+
+# Site İçerisinde Seçeneği Evet Olarak İşaretlenir.
+* "siteicindeByM" elementine scroll ile tıkla
+* "1" saniye bekle
+
+# Listelemede 3. İlana Tıklanır.
+* "ucuncuilanByM" elementine scroll ile tıkla
+* "1" saniye bekle
+
+# Telefon Numarası Sorgulanır.
+* "telefongosterByM" elementine scroll ile tıkla
+* "telByM" telefon "tel:+903124276043" mi?
+
